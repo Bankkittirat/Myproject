@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">CSFamily</string>
+    <string name="action_settings">Settings</string>
+    <string name="Title1">กรุณากรอกข้อมูล</string>
+    <string name="Name">ชื่อ-นามสกุล</string>
+    <string name="CLASS">ระดับชั้นปี: </string>
+    <string name="Pee1">ปี1</string>
+    <string name="Pee2">ปี2</string>
+    <string name="Pee3">ปี3</string>
+    <string name="Pee4">ปี4</string>
+    <string name="raygan">ชั้นปีที่ต้องการดู: </string>
+    <string name="CLASS1">ปี1 </string>
+    <string name="CLASS2">ปี2 </string>
+    <string name="CLASS3">ปี3 </string>
+    <string name="Addname">ชื่อ-นามสกุล</string>
+    <string name="addCLASS1">ปี1 </string>
+    <string name="addCLASS2">ปี2 </string>
+    <string name="addCLASS3">ปี3 </string>
+    <string name="addCLASS4">ปี4 </string>
+    <string name="addScool">จบจากโรงเรียน </string>
+    <string name="Update">รอการอัปเดตและข้อมูล </string>
+    <string name="addBlood">กรู๊ปเลือด: </string>
+    <string name="addBloodA">A </string>
+    <string name="addBloodB">B</string>
+    <string name="addBloodO">O</string>
+    <string name="addBloodAB">AB</string>
+    <string name="Label">CSFamily</string>
+    <string name="OK">ดำเนินการต่อ </string>
+
+    <string name="title_activity_student">StudentActivity</string>
+
+    <string name="SSname">ชื่อเล่น: </string>
+    <string name="Age">วัน/เดือน/ปีเกิด: </string>
+    <string name="Scool">จบจากโรงเรียน: </string>
+    <string name="Blood">กรุ๊ปเลือด: </string>
+
+
+    <string-array name="Studentcollection1">
+        <item>Assdawut Homesub</item>
+        <item>Weerachai Jarernphong</item>
+        <item>Kontorn Kaewaram</item>
+        <item>Atiwat Kawkaew</item>
+        <item>Nuttapong Huengkuntod</item>
+    </string-array>
+
+
+    <string name="AssdawutSname">อ้าย</string>
+    <string name="AssdawutAge">19/ม.ค./2542</string>
+    <string name="AssdawutEng">โรงเรียนเบ็ญจะมะมหาราช</string>
+    <string name="AssdawutBlood">B</string>
+
+    <string name="WeerachaiSname">เปียว</string>
+    <string name="WeerachaiAge">22/ม.ค./2541</string>
+    <string name="WeerachaiEng">โรงเรียนคำเขื่อนแก้วชนูปถัมภ์</string>
+    <string name="WeerachaiBlood">A</string>
+
+    <string name="KontornSname">เบิ้ล</string>
+    <string name="KontornAge">31/ม.ค./2540</string>
+    <string name="KontornEng">โรงเรียนเบ็ญจะมะมหาราช</string>
+    <string name="KontornBlood">AB</string>
+
+    <string name="AtiwatSname">อาทร์</string>
+    <string name="AtiwatAge">2/ก.ย./2542</string>
+    <string name="AtiwatEng">โรงเรียนตระกาศประชาสามัคคี</string>
+    <string name="AtiwatBlood">A</string>
+
+    <string name="NuttapongSname">ตั้ง</string>
+    <string name="NuttapongAge">5/พ.ฤ./2542</string>
+    <string name="NuttapongEng">โรงเรียนกำแพง</string>
+    <string name="NuttapongBlood">B</string>
+    <string name="infoPic">infoPic</string>
+    <string name="gender">รายการแสดง</string>
+    <string name="check1">ภาพ</string>
+    <string name="check2">ข้อมูล</string>
+    <string name="backg">backg</string>
+
+    <string-array name="Studentcollection2">
+        <item>พี่โอม</item>
+        <item>พี่โดม</item>
+        <item>พี่เกรซ</item>
+
+    </string-array>
+    <string name="Poumname">โอม</string>
+    <string name="PoumAge">19/ม.ค./2540</string>
+    <string name="PoumEng">โรงเรียนนารีนุกุล</string>
+    <string name="PoumBlood">O</string>
+
+    <string name="PdomeSname">โดม</string>
+    <string name="PdomeAge">22/ม.ค./2540</string>
+    <string name="PdomeEng">โรงเรียนคำเขื่อนแก้วชนูปถัมภ์</string>
+    <string name="PdomeBlood">AB</string>
+
+    <string name="PgetSname">เกรซ</string>
+    <string name="PgetAge">31/ม.ค./2539</string>
+    <string name="PgetEng">โรงเรียนเบ็ญจะมะมหาราช</string>
+    <string name="PgetBlood">B</string>
+
+    <string-array name="Studentcollection3">
+        <item>พี่เต้</item>
+        <item>พี่เบนซ์</item>
+        <item>พี่นัท</item>
+
+    </string-array>
+
+    <string name="PteSname">เต้</string>
+    <string name="PteAge">5/ม.ค./2540</string>
+    <string name="PteEng">โรงเรียนเขมราฐพิทยา</string>
+    <string name="PteBlood">O</string>
+
+    <string name="PbenzSname">โดม</string>
+    <string name="PbenzAge">22/ม.ย./2540</string>
+    <string name="PbenzEng">โรงเรียนศรีสะเกษวิทยาลัย</string>
+    <string name="PbenzBlood">AB</string>
+
+    <string name="PnutSname">นัท</string>
+    <string name="PnutAge">31/ก.ย./2539</string>
+    <string name="PnutEng">โรงเรียนสตรีศิริเกด</string>
+    <string name="PnutBlood">AB</string>
+    <string name="title_activity_student2">StudentActivity2</string>
+    <string name="title_activity_student3">StudentActivity3</string>
+    <string name="title_activity_sandto_firebase">SandtoFirebase</string>
+    <string name="Bolld">กรุ๊ปเลือด</string>
+    <string name="SandBox">ส่งข้อมูล</string>
+
+
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".StudentActivity2"
+    tools:showIn="@layout/activity_student2">
+
+    <RelativeLayout
+        android:layout_width="365dp"
+        android:layout_height="583dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="13dp">
+
+        <Spinner
+            android:id="@+id/StudentList3"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/infoPic3"
+            android:layout_width="171dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/StudentList3"
+            android:layout_alignEnd="@+id/StudentList3"
+            android:layout_alignRight="@+id/StudentList3"
+            android:layout_marginTop="46dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginRight="9dp"
+            app:srcCompat="@drawable/aey" />
+
+        <TextView
+            android:id="@+id/infoSname3"
+            android:layout_width="136dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/StudentList3"
+            android:layout_alignStart="@+id/StudentList3"
+            android:layout_alignLeft="@+id/StudentList3"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="66dp"
+            android:layout_marginEnd="19dp"
+            android:layout_marginRight="19dp"
+            android:layout_toStartOf="@+id/infoPic3"
+            android:layout_toLeftOf="@+id/infoPic3"
+            android:text="@string/SSname"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/infoAge3"
+            android:layout_width="171dp"
+            android:layout_height="76dp"
+            android:layout_below="@+id/infoSname3"
+            android:layout_alignStart="@+id/infoSname3"
+            android:layout_alignLeft="@+id/infoSname3"
+            android:layout_marginStart="-2dp"
+            android:layout_marginLeft="-2dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_toStartOf="@+id/infoPic3"
+            android:layout_toLeftOf="@+id/infoPic3"
+            android:text="@string/Age"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/infoScool3"
+            android:layout_width="181dp"
+            android:layout_height="91dp"
+            android:layout_below="@+id/infoAge3"
+            android:layout_alignStart="@+id/infoAge3"
+            android:layout_alignLeft="@+id/infoAge3"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="69dp"
+            android:layout_marginEnd="-1dp"
+            android:layout_marginRight="-1dp"
+            android:layout_toStartOf="@+id/infoPic3"
+            android:layout_toLeftOf="@+id/infoPic3"
+            android:text="@string/Scool"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/infoBlood2"
+            android:layout_width="166dp"
+            android:layout_height="49dp"
+            android:layout_below="@+id/infoAge3"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_toStartOf="@+id/infoPic3"
+            android:layout_toLeftOf="@+id/infoPic3"
+            android:text="@string/Blood"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

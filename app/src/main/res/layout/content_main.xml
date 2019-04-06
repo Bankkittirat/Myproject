@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <RelativeLayout
+        android:layout_width="369dp"
+        android:layout_height="621dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="8dp">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/Title1"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/nameBox"
+            android:layout_width="359dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_marginStart="-86dp"
+            android:layout_marginLeft="-86dp"
+            android:layout_marginTop="26dp"
+            android:ems="10"
+            android:hint="@string/Name"
+            android:inputType="textPersonName"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameBox"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_marginStart="-84dp"
+            android:layout_marginLeft="-84dp"
+            android:layout_marginTop="23dp"
+            android:text="@string/CLASS"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/radio8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView3"
+            android:layout_alignEnd="@+id/textView3"
+            android:layout_alignRight="@+id/textView3"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="33dp"
+            android:layout_marginRight="33dp"
+            android:checked="true"
+            android:text="@string/Pee1"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameBox"
+            android:layout_alignEnd="@+id/textView3"
+            android:layout_alignRight="@+id/textView3"
+            android:layout_alignBottom="@+id/textView3"
+            android:layout_marginTop="82dp"
+            android:layout_marginEnd="-38dp"
+            android:layout_marginRight="-38dp"
+            android:layout_marginBottom="-63dp"
+            android:text="@string/Pee2"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameBox"
+            android:layout_alignEnd="@+id/textView3"
+            android:layout_alignRight="@+id/textView3"
+            android:layout_marginTop="82dp"
+            android:layout_marginEnd="-104dp"
+            android:layout_marginRight="-104dp"
+            android:text="@string/Pee3"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radio4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameBox"
+            android:layout_alignEnd="@+id/textView3"
+            android:layout_alignRight="@+id/textView3"
+            android:layout_marginTop="82dp"
+            android:layout_marginEnd="-179dp"
+            android:layout_marginRight="-179dp"
+            android:text="@string/Pee4"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radio8"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="45dp"
+            android:text="@string/raygan"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="187dp"
+            android:layout_height="199dp"
+            android:layout_below="@+id/textView2"
+            android:layout_alignEnd="@+id/textView4"
+            android:layout_alignRight="@+id/textView4"
+            android:layout_marginTop="284dp"
+            android:layout_marginEnd="-186dp"
+            android:layout_marginRight="-186dp"
+            app:srcCompat="@drawable/back" />
+
+        <Button
+            android:id="@+id/buttonPee1"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView4"
+            android:layout_alignStart="@+id/textView4"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_marginStart="-5dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="19dp"
+            android:layout_marginRight="19dp"
+            android:layout_toStartOf="@+id/imageView"
+            android:layout_toLeftOf="@+id/imageView"
+            android:text="@string/CLASS1"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonPee2"
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonPee1"
+            android:layout_alignStart="@+id/buttonPee1"
+            android:layout_alignLeft="@+id/buttonPee1"
+            android:layout_marginStart="-1dp"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_toStartOf="@+id/imageView"
+            android:layout_toLeftOf="@+id/imageView"
+            android:text="@string/CLASS2"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonPee3"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonPee2"
+            android:layout_alignStart="@+id/buttonPee2"
+            android:layout_alignLeft="@+id/buttonPee2"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_toStartOf="@+id/imageView"
+            android:layout_toLeftOf="@+id/imageView"
+            android:text="@string/CLASS3"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonPee4"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonPee3"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_toStartOf="@+id/imageView"
+            android:layout_toLeftOf="@+id/imageView"
+            android:text="@string/addCLASS4"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
+
+
+
